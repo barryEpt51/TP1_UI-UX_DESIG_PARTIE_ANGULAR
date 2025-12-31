@@ -1,0 +1,34 @@
+.lightZone {
+  background-color: var(--secondary);
+  color: var(--primary);
+}
+.lightZone h1 {
+  border-bottom: solid var(--primary);
+  font-size: 38px;
+}
+.lightZone section section h1 {
+  border: none;
+  font-size: 20px;
+}
+
+.darkZone {
+  background-color: var(--primary);
+  color: var(--secondary);
+}
+.darkZone h1 {
+  border-bottom: solid var(--secondary);
+  font-size: 38px;
+}
+
+@font-face {
+  font-family: "Sensation";
+  src: url("/fonts/sansation/Sansation_Bold_Italic.ttf");
+}
+header span {
+  font-size: 38px;
+  font-family: "Sensation";
+}
+
+.container {
+  border: solid 2px var(--primary);
+} /* You can add global styles to this file, and also import other style files *//*# sourceMappingURL=styles.css.map */
