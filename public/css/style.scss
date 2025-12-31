@@ -1,0 +1,48 @@
+
+$dark: #0A2C59;
+$light: #DCE4F2;
+
+.lightZone{
+    background-color: $light;
+    color: $dark;
+
+    h1{
+        border-bottom: solid $dark;
+        font-size: 38px;
+    }
+
+    section{
+            section{
+                h1{
+                    border: none;
+                    font-size: 20px;
+                }
+            }
+        }
+}
+
+.darkZone{
+    background-color: $dark;
+    color: $light;
+
+    h1{
+        border-bottom: solid $light;
+        font-size: 38px;
+    }
+}
+
+@font-face {
+    font-family: "Sensation";
+    src: url('../fonts/sansation/Sansation_Bold_Italic.ttf');
+}
+
+header{
+    span{
+        font-size: 38px;
+        font-family: 'Sensation';
+    }
+}
+
+.container{
+    border: solid 2px $dark;
+}
