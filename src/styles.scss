@@ -1,13 +1,17 @@
 
-$dark: var(--primary);
-$light: var(--secondary);
+
+
+:root{
+    --primary: #0A2C59;
+    --secondary: #DCE4F2;
+}
 
 .lightZone{
-    background-color: $light;
-    color: $dark;
+    background-color:  var(--secondary);
+    color: var(--primary);
 
     h1{
-        border-bottom: solid $dark;
+        border-bottom: solid var(--primary);
         font-size: 38px;
     }
 
@@ -22,11 +26,11 @@ $light: var(--secondary);
 }
 
 .darkZone{
-    background-color: $dark;
-    color: $light;
+    background-color: var(--primary);
+    color:  var(--secondary);
 
     h1{
-        border-bottom: solid $light;
+        border-bottom: solid  var(--secondary);
         font-size: 38px;
     }
 }
@@ -43,5 +47,5 @@ header{
 }
 
 .container{
-    border: solid 2px $dark;
+    border: solid 2px var(--primary);
 }/* You can add global styles to this file, and also import other style files */
